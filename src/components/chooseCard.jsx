@@ -19,18 +19,39 @@ const choose = [
     },
 ];
 
-const Choosecard = () => {
+const chooselinks = [
+    {
+        title: "All Properties"
+    },
+    {
+        title: "New Listings"
+    },
+    {
+        title: "Open Houses"
+    }
+]
+
+const ChooseCard = () => {
     return (
-        <div className='flex flex-row justify-between'>
-            {choose.map((chooseItem, index) => (
-                <div className='border rounded-2xl border-state-400 p-4 min-w-[400px]' key={index}>
-                    {chooseItem.logo}
-                    <h1 className='text-2xl font-bold'>{chooseItem.title}</h1>
-                    <p className='text-state-400 font-light'>{chooseItem.para}</p>
-                </div>
-            ))}
-        </div>
+        <>
+            <div className='flex flex-row justify-between w-full'>
+                {choose.map((chooseItem, index) => (
+                    <div className='border rounded-2xl border-state-400 p-4 min-w-[400px]' key={index}>
+                        {chooseItem.logo}
+                        <h1 className='text-2xl font-bold'>{chooseItem.title}</h1>
+                        <p className='text-state-400 font-light'>{chooseItem.para}</p>
+                    </div>
+                ))}
+            </div>
+            <div className='flex flex-row justify-between w-full'>
+                {chooselinks.map((chooseItem, index) => (
+                    <ul key={index}>
+                        <li className='border rounded-2xl border-state-400 min-w-[200px]'>{chooseItem.title}</li>
+                    </ul>
+                ))}
+            </div>
+        </>
     );
 };
 
-export default Choosecard;
+export default ChooseCard;
