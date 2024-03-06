@@ -37,8 +37,8 @@ const Navbar = () => {
                     <li key={index} className="cursor-pointer">{navitem.title}</li>
                 ))}
             </ul>
-            <div className='flex items-center rounded-full border rounde-full text-black'>
-                <input className='px-4 py-1 rounded-full h-fit w-fit active:border-none' type="text" name="" id="" placeholder='search' />
+            <div className='flex items-center rounded-full text-black'>
+                <input className='px-4 py-1 rounded-full bg-none h-fit w-fit active:border-none' type="text" name="" id="" placeholder='search' />
                 <MagnifyingGlass className='text-black' size={24} />
             </div>
             <div className='flex flex-row gap-8'>
