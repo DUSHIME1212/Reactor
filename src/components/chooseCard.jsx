@@ -45,7 +45,7 @@ const ChooseCard = () => {
             </div>
             <div className='flex flex-row justify-between w-full'>
                 {chooselinks.map((chooseItem, index) => (
-                    <ul key={index} className='flex justify-center'>
+                    <ul key={index} className='flex items-center'>
                         <li className='border rounded-2xl border-state-400 min-w-[200px]'>{chooseItem.title}</li>
                     </ul>
                 ))}
