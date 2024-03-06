@@ -4,6 +4,7 @@ import Content from '../components/content'
 import Choosecard from '../components/chooseCard'
 
 const img2 = 'public/images/9c77bced-d6b2-4c35-b356-4bd095b6534d.jpeg'
+const img1 = 'public/images/9c77bced-d6b2-4c35-b356-4bd095b6534d.jpeg'
 
 const Home = () => {
   return (
@@ -25,6 +26,13 @@ const Home = () => {
           <div className='text-4xl font-bold'>Why Choose Us</div>
           <div className='mt-16'>
             <Choosecard/>
+          </div>
+        </div>
+        <div>
+          <img src="" alt="" srcset="" />
+          <div className='flex flex-col'>
+            <h1>Featured Property</h1>
+            <p>A stunning mansion with breathtaking views</p>
           </div>
         </div>
       </div>
