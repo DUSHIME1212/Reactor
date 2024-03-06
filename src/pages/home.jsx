@@ -3,6 +3,7 @@ import Navbar from '../components/navbar'
 import Content from '../components/content'
 import Choosecard from '../components/chooseCard'
 import TestimonialCard from '../components/testmonialcard';
+import Footer from '../components/footer';
 
 const img2 = 'public/images/9c77bced-d6b2-4c35-b356-4bd095b6534d.jpeg'
 const img1 = 'public/images/Modern house by the ocean.jpeg'
@@ -46,6 +47,7 @@ const Home = () => {
               <button className='btn'>Subscribe</button>
             </div>
           </div>
+          <Footer />
         </div>
       </div>
     </div>

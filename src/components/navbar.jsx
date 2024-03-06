@@ -34,7 +34,7 @@ const Navbar = () => {
             </a>
             <ul className='flex gap-2'>
                 {Navlinks.map((navitem, index) => (
-                    <li key={index} className="cursor-pointer">{navitem.title}</li>
+                    <li key={index} className="cursor-pointer hover:text-green-900">{navitem.title}</li>
                 ))}
             </ul>
             <div className='flex items-center rounded-full text-black'>
