@@ -22,7 +22,7 @@ import Footer from '../components/footer';
 //   };
 
 
-  const img2 = 'public/images/9c77bced-d6b2-4c35-b356-4bd095b6534d.jpeg'
+  const img2 = 'https://i.pinimg.com/474x/6d/fc/e4/6dfce4b0cdf4bce869ff40382acd8787.jpg'
   const img1 = 'public/images/Modern house by the ocean.jpeg'
 
   const Home = () => {
